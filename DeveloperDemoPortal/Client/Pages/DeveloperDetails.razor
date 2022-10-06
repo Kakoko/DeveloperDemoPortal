@@ -1,0 +1,72 @@
+﻿@page "/developerdetails"
+@using DeveloperDemoPortal.Shared.Models
+@inject HttpClient HttpClient
+
+<h3>Developer Details</h3>
+<PageTitle>Developer Details</PageTitle>
+
+
+<div class="row">
+    <div class="col-md-6">
+        <a href="/developer/add" class="btn btn-primary" role="button">
+            <i class="fas fa-user-plus"></i>
+            Add Developer
+        </a>
+    </div>
+</div>
+
+<br />
+
+@if(developers == null)
+{
+    <p><em>Loading Developers .......</em></p>
+}
+else
+{
+    <table class="table table-striped align-middle table-bordered">
+        <thead class="table-success">
+            <tr>
+                <th>Id</th>
+                <th>User Name</th>
+                <th>Company</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var developer in developers)
+            {
+                <tr>
+                    <td>@developer.Id</td>
+                    <td>@developer.UserName</td>
+                    <td>@developer.Company</td>
+                    <td>@developer.Email</td>
+                    <td>
+                        <a href="/developer/edit/@developer.Id" class="btn btn-outline-dark" role="button">
+                            Edit
+                        </a>
+                        <a href="/developer/delete/@developer.Id" class="btn btn-outline-danger" role="button">
+                            Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    //We need a List Developers
+    protected List<Developer> developers = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await GetDevelopers();
+    }
+
+    protected async Task GetDevelopers()
+    {
+        developers = await HttpClient.GetFromJsonAsync<List<Developer>>("api/developer");
+    }
+}

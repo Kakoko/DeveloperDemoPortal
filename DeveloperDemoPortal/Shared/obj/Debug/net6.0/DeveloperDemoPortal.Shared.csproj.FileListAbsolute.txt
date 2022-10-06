@@ -1,0 +1,12 @@
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\bin\Debug\net6.0\DeveloperDemoPortal.Shared.deps.json
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\bin\Debug\net6.0\DeveloperDemoPortal.Shared.dll
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\bin\Debug\net6.0\DeveloperDemoPortal.Shared.pdb
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\DeveloperDemoPortal.Shared.csproj.AssemblyReference.cache
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\DeveloperDemoPortal.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\DeveloperDemoPortal.Shared.AssemblyInfoInputs.cache
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\DeveloperDemoPortal.Shared.AssemblyInfo.cs
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\DeveloperDemoPortal.Shared.csproj.CoreCompileInputs.cache
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\DeveloperDemoPortal.Shared.dll
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\refint\DeveloperDemoPortal.Shared.dll
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\DeveloperDemoPortal.Shared.pdb
+C:\Users\ChiefScientist\source\repos\DeveloperDemoPortal\DeveloperDemoPortal\Shared\obj\Debug\net6.0\ref\DeveloperDemoPortal.Shared.dll
